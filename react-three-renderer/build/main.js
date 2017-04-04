@@ -1,5 +1,1 @@
-window.deps = {
-  'react3': require('react-three-renderer')
-}
-
-window.React3 = window.deps['react3']
+window.React3 = require('imports-loader?react=React!react-three-renderer')

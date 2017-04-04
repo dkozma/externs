@@ -17,6 +17,7 @@
     "three": "0.82.1"
   },
   "devDependencies": {
+    "imports-loader": "^0.7.1",
     "webpack": "^2.3.3"
   }
 }
