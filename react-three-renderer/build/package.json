@@ -1,0 +1,21 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Kozma <dave@workframe.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "15.4.0",
+    "react-dom": "15.4.0",
+    "react-three-renderer": "github:dkozma/react-three-renderer#5fb2b7e",
+    "three": "0.82.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  }
+}
